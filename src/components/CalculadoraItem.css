@@ -1,0 +1,38 @@
+.fila input {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    background: rgb(94, 0, 157);
+    color: #fff;
+    padding: 4px 10px 10px 10px;
+    transition: all .3s;
+}
+
+.fila input:hover {
+    transform: scale(1.1);
+}
+.pantalla {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    padding-right: 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    width: 100%;
+
+
+}
+
+.number {
+    background: rgb(83, 154, 76) !important;
+}
+.operador {
+    background-color: rgb(173, 164, 0) !important;
+}
+.result {
+    background: rgb(255, 157, 0) !important;
+    height: 200% !important;
+    border-radius: 20px !important;
+}
